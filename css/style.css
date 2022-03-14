@@ -1,78 +1,124 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
-body {
-  background-color: #ffff;
-  font-family: "Roboto", sans-serif;
-  margin: 72px 0;
-}
-
-.page-title {
-  color: rgb(102, 0, 102);
-  padding-left: 64px;
-  margin-bottom: 6px;
-}
-
-.page-description {
-  padding-left: 64px;
-  color: rgba(40, 1, 1, 0.65);
-}
-
-.videos {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 12px;
-}
-
-.video {
-  width: 30%;
-  height: fit-content;
-  margin-top: 24px;
-  padding: 32px 12px;
-  transition: 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-.video:hover {
-  transform: scale(1.02);
-  filter: brightness(120%);
-}
-
-.thumbnail {
-  width: 100%;
-}
-
-.video-time {
-  color: #ff66;
-  background-color: rgba(40, 1, 1, 0.65);
-  width: fit-content;
-  float: right;
-  padding: 8px 12px;
-  display: block;
-  transform: translateY(-35px);
-}
-
-.video-title {
-  margin: 8px 0 12px;
-  color: rgb(102, 0, 102);
-}
-
-.video-description {
-  color: rgba(40, 1, 1, 0.65);
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+  font-family: "Nunito", sans-serif;
 }
 
-.video-views {
-  color: rgba(40, 1, 1, 0.65);
-  margin-top: 12px;
-  display: block;
+.inicio {
+  height: 70px;
+  background-color: #cc0066;
+  padding: 25px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 60px;
 }
 
-.video-date {
-  text-align: right;
+.main-cards {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  width: 300px;
+  height: 460px;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.card-1 {
+  margin-right: 30px;
+}
+
+.card_background {
+  background-image: url("../img/blob_4pmh.jpg");
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  background-position: center;
+}
+
+.cardhellokitty {
+  background-image: url("../img/39-392969_hd-dark-iron-man-wallpapers-dark-wallpaper-for.png");
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  background-position: center;
+}
+
+.card_produto {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 100px;
+  top: 130px;
+  border-radius: 80px;
+}
+
+.card_infos {
+  margin: 10px;
+}
+
+.teste {
+  margin-top: 40px;
+}
+
+.card_titulo {
+  text-align: center;
+  font-size: 22px;
+}
+
+.card_preco {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card_descricao {
+  text-align: justify;
+  height: 131px;
+}
+
+.card_botao {
+  width: 150px;
+  height: 50px;
+  background-color: #cc0066;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_botao a {
+  color: white;
+  text-decoration: none;
   display: block;
-  color: rgba(40, 1, 1, 0.65);
-  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+}
+
+.headerprincipal {
+  height: 40px;
+  background-color: #ffb6c1;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+.rodape {
+  height: 45px;
+  background-color: #cc0066;
+  padding-top: 13px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.rodape a {
+  text-decoration: none;
+  color: white;
 }
